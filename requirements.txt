@@ -3,6 +3,6 @@ rise
 matplotlib
 opencv-python
 imageio
-skimage
+scikit-image
 numpy
 sme
