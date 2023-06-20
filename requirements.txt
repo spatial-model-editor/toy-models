@@ -1,5 +1,5 @@
-jupyter
-rise
+jupyterlab
+jupyterlab_rise
 matplotlib
 opencv-python
 imageio
