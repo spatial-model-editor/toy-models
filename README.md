@@ -4,7 +4,7 @@
 
 A 2d toy model starting from 2d segmented cells
 
-- [Online slides (generated from jupyter notebook below)](https://spatial-model-editor.github.io/toy-models/2d-toy-model.html)
+- [Online slides (generated from jupyter notebook below)](https://spatial-model-editor.github.io/toy-models/2d-toy-model.slides.html)
 - [Jupyter notebook](https://github.com/spatial-model-editor/toy-models/blob/main/2d-toy-model.ipynb)
 - [SBML model](https://spatial-model-editor.github.io/toy-models/2d-toy-model.xml)
 
@@ -12,7 +12,7 @@ A 2d toy model starting from 2d segmented cells
 
 A 3d toy model starting from 3d segmented cells
 
-- [Online slides (generated from jupyter notebook below)](https://spatial-model-editor.github.io/toy-models/3d-toy-model.html)
+- [Online slides (generated from jupyter notebook below)](https://spatial-model-editor.github.io/toy-models/3d-toy-model.slides.html)
 - [Jupyter notebook](https://github.com/spatial-model-editor/toy-models/blob/main/3d-toy-model.ipynb)
 - [SBML model](https://spatial-model-editor.github.io/toy-models/3d-toy-model.xml)
 
