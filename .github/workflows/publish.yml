@@ -14,7 +14,10 @@ jobs:
       - run: pip install -r requirements.txt
       - run: sudo apt update -qy && sudo apt install ffmpeg -qy
       - run: jupyter nbconvert *.ipynb --to slides --execute
-      - run: mkdir dist && mv *.slides.html dist/index.html
+      - run: |
+          mkdir dist
+          mv README.md dist/index.md
+          mv *.slides.html dist/.
       - run: cp *.xml dist/.
       - uses: JamesIves/github-pages-deploy-action@v4
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
