@@ -5,3 +5,5 @@ imageio
 scikit-image
 numpy
 sme
+pyvista[jupyter]
+ipython
