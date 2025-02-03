@@ -1,9 +1,10 @@
-jupyterlab
+jupyterlab>=3
 jupyterlab_rise
+jupyter-server-proxy
 matplotlib
 imageio
 scikit-image
 numpy
 sme
-pyvista[jupyter]
+pyvista[all,trame]
 ipython
