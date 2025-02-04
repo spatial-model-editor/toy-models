@@ -10,13 +10,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: pyvista/setup-headless-display-action@v3
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - run: pip install vtk-osmesa --index-url https://gitlab.kitware.com/api/v4/projects/13/packages/pypi/simple
-      - run: python3 -m ipykernel install --user
+      - run: pip install vtk-osmesa --index-url https://gitlab.kitware.com/api/v4/projects/13/packages/pypi/simple # needed for the CI to run
       - run: sudo apt update -qy && sudo apt install ffmpeg -qy
       - run: jupyter nbconvert *.ipynb --to slides --execute
       - run: |
