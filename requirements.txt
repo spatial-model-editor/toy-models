@@ -1,7 +1,13 @@
-jupyterlab
+jupyterlab>=3
 jupyterlab_rise
+jupyter-server-proxy
+ipython
+ipywidgets
 matplotlib
-imageio
+imageio[ffmpeg]
 scikit-image
+scipy
 numpy
+tifffile
 sme
+pyvista[jupyter]
