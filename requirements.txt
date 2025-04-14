@@ -10,4 +10,5 @@ scipy
 numpy
 tifffile
 sme
+sme-contrib
 pyvista[jupyter]
